@@ -23,25 +23,39 @@ body, html {
   height: 30%;
   /* max-height: 30%; */
 }
+.w3-cell-row {
+  display: flex;
+}
+
+.w3-card {
+  height: 100%;
+}
 
 .team_member {
     width: 20%; /* Change this so you can fit x Team members in a row*/
     float: left;
     padding: 0% 6px;
     min-height: 500px;
-}
-.team_member p {
-  font-size: 10px;
-  font-size: 1.5vw;
+    margin: auto;
 }
 .team_member h4 {
   font-size: 20px;
   font-size: 3vw;
 }
 
+.team_member h5 {
+  font-size: 10px;
+  font-size: 1.5vw;
+}
+
+.team_member p {
+  font-size:75%;
+}
+
 .headshot {
     display: block;
     margin:auto;
+    margin-top: 20px;
     max-width: 100%;
     width: 200px;
     height: 200px;
@@ -100,44 +114,47 @@ body, html {
     </a></p> -->
   </div>
 </header>
-
-<div class="w3-container w3-white" style="padding:5% 5%">
-  <div class="w3-card team_member">
-      <img class="headshot" src="img/Tian.jpg">
-      <h4>Tian Lin</h4>
-      <p>lintian@mit.edu</p>
-      <p style = "font-size:75%;">I study electrical engineering and computer science at MIT! I love theatre 
-        (you can probably find me involved with a theatre performance at MIT) and reading sci-fi fantasy novels.
-        I am very excited to work with this team.  
-      </p>
-  </div>
-  <div class="w3-card team_member">
-      <img class="headshot" src="img/r2.jpg">
-      <h4>Tim Beaver</h4>
-      <p>tbeaver@mit.edu</p>
-      <p>These are some template bios; fill this in for each of your team members!
-      </p>
-  </div>
-  <div class="w3-card team_member">
-      <img class="headshot" src="img/wall_e.jfif">
-      <h4>Tim Beaver</h4>
-      <p>tbeaver@mit.edu</p>
-      <p>These are some template bios; fill this in for each of your team members!
-      </p>
-  </div>
-  <div class="w3-card team_member">
-      <img class="headshot" src="img/r2.jpg">
-      <h4>Tim Beaver</h4>
-      <p>tbeaver@mit.edu</p>
-      <p>These are some template bios; fill this in for each of your team members!
-      </p>
-  </div>
-  <div class="w3-card team_member">
-      <img class="headshot" src="img/wall_e.jfif">
-      <h4>Tim Beaver</h4>
-      <p>tbeaver@mit.edu</p>
-      <p>These are some template bios; fill this in for each of your team members!
-      </p>
+<div class="w3-cell-row">
+  <div class="w3-container w3-white style="padding:5% 5%">
+    <div class="w3-card team_member">
+        <img class="headshot" src="img/Tian.jpg">
+        <h4>Tian Lin</h4>
+        <h5>lintian@mit.edu</h5>
+        <p>I study electrical engineering and computer science at MIT! I love theatre 
+          (you can probably find me involved with a theatre performance at MIT) and reading sci-fi fantasy novels.
+          I am very excited to work with this team.  
+        </p>
+    </div>
+    <div class="w3-card team_member">
+        <img class="headshot" src="img/Jiahai.png">
+        <h4>Jiahai Feng</h4>
+        <h5>fjiahai@mit.edu</h5>
+        <p> I’m a junior at MIT interested in the scientific endeavour of reverse engineering human intelligence to develop safe and robust artificial intelligence. 
+          I’ve previously worked on symbolic regression, mechanistic interpretability of transformers, and cognitive science-inspired methods of planning from natural language. 
+          Recently, I’ve been thinking about perception, trying to figure out what’s up with Feynman diagrams, and learning about dream-logic.
+        </p>
+    </div>
+    <div class="w3-card team_member">
+        <img class="headshot" src="img/wall_e.jfif">
+        <h4>Tim Beaver</h4>
+        <h5>tbeaver@mit.edu</h5>
+        <p>These are some template bios; fill this in for each of your team members!
+        </p>
+    </div>
+    <div class="w3-card team_member">
+        <img class="headshot" src="img/r2.jpg">
+        <h4>Tim Beaver</h4>
+        <h5>tbeaver@mit.edu</h5>
+        <p>These are some template bios; fill this in for each of your team members!
+        </p>
+    </div>
+    <div class="w3-card team_member">
+        <img class="headshot" src="img/wall_e.jfif">
+        <h4>Tim Beaver</h4>
+        <h5>tbeaver@mit.edu</h5>
+        <p>These are some template bios; fill this in for each of your team members!
+        </p>
+    </div>
   </div>
 </div>
 
